@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tk.mybatis.web.mapper.UserMapper">
+    <!--<resultMap type="tk.mybatis.web.model.User" id="userMap">-->
+        <!--<result column="ID" jdbcType="int"  property="id" javaType="int"/>-->
+        <!--<result column="UserID" jdbcType="varchar" property="userId" javaType="String"/>-->
+        <!--<result column="UserName" jdbcType="varchar" property="userName" javaType="String"/>-->
+        <!--<result column="Age" jdbcType="int" property="age" javaType="String" />-->
+        <!--<result column="Sex" javaType="varchar" property="sex" jdbcType="String"/>-->
+    <!--</resultMap>-->
+    <insert id="InsertUser" parameterType="user">
+        INSERT blog_user (UserID,UserPass,Age,Sex) VALUES(#{user.userId},#{user.userPass},#{user.age},#{user.sex})
+    </insert>
+
+</mapper>

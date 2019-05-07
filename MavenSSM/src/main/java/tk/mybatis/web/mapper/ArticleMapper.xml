@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tk.mybatis.web.mapper.ArticleMapper">
+    <!--<resultMap type="tk.mybatis.web.model.Article" id="articleMap">-->
+        <!--<result column="ID" jdbcType="int"  property="id" javaType="int"/>-->
+        <!--<result column="UserID" jdbcType="varchar" property="userId" javaType="String"/>-->
+        <!--<result column="UserName" jdbcType="varchar" property="userName" javaType="String"/>-->
+        <!--<result column="Title" jdbcType="varchar" property="title" javaType="String" />-->
+        <!--<result column="Content"  jdbcType="varchar"  property="content" javaType="String"/>-->
+        <!--<result column="IsDelete" jdbcType="tinyint" property="isDelete" javaType="boolean"/>-->
+        <!--<result column="Created" jdbcType="date" property="created" javaType="Date"/>-->
+    <!--</resultMap>-->
+
+</mapper>
